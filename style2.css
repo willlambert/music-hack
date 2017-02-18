@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* CSS Document created by Ken Baldauf, January 26, 2011 updated August 2014*/
+
+body {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 1.6em;
+	color: #1F201A;
+	background-color: #FFFFFF;
+	padding: 0 40px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+}
+h1 {
+	font-size: 24px;
+	padding: 4px 0;
+	font-variant: small-caps;
+	letter-spacing: .5em;
+	line-height: 2em;
+}
+h2 {
+	font-size: 25px;
+	padding: 6px;
+	font-variant: small-caps;
+	letter-spacing: 0.5em;
+	background-color: #FFFFFF;
+}
+h3 {
+	font-size: 17px;
+	letter-spacing: 0.5em;
+	border-bottom-width: 1px;
+	border-bottom-style: inset;
+	border-bottom-color: #9B9744;
+	padding: 4px 0;
+	font-variant: small-caps;
+	font-style: italic;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #9B9744;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #9B9744;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFFF00;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 12px;
+}
+ol {
+	margin-left: 14px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #999933 1px;
+}
+td {
+	padding: 6px;
+	border: solid #999933 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #999938;
+	text-align: center;
+	padding: 6px;
+	border: solid #999933 1px;
+}
+
+/*DIV STYLES FOR PAGE LAYOUT */
+#sidebar{
+	width: 278px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+	background: #A8A8A8;
+	border: 1px solid #1F201A;
+	border-radius: 12px;
+	clear: both;
+}
+#sidebar p{
+	padding: 0;
+}
+#featured{
+	width: 1140px;
+	float: left;
+	margin-top: 20px;
+	margin-right: 20px;
+	background: #333333;
+	border: 1px solid #47D7E2;
+	border-radius: 12px;
+	font-size: 17.5px;
+}
+#icon{
+	float:right;
+}
+#about{
+	width: 1000px;
+	float: 0;
+	margin-top: 20px;
+	margin-right: 20px;
+	background: #1F201A;
+	Border: #47D7E2;
+	border-radius: 12px;
+	
+	
+	
+}
