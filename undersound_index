@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>UnderSound</title>
+     <meta charset="UTF-8">
+    <meta name="description" content="UnderSound">
+    <meta name="keywords" content="Music, music sharing, underground artists, artists, unkown artists">
+    <meta name="author" content="">
+    <link href="style2.css" rel="stylesheet" type="text/css">
+    <link href="style_buttons.css" rel="stylesheet" type="text/css">
+    <link href="font-awesome.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="font-awesome.css"/>
+<style>
+
+
+</style>
+
+</head>
+
+<body>
+<img src="images/logo.png" width="300" height="200">
+<img id="icon" src="images/usericon.png" width="50" height"50">
+<div id="navbar">
+    <ul id="menu">
+        <li><a href="undersound_index.html" class="button selected">Home</a></li>
+        <li><a href="explore.html" class="button">Explore</a></li>
+        <li><a href="upload.html" class="button">Upload</a></li>
+        <li><a href="about.html" class="button">About</a></li>
+       
+    </ul>
+</div> <!-- end navbar -->
+
+<h1>Featured</h1>
+
+<p>@williambert
+<div id="featured">
+<p></p>   
+<img src="images/shapeofyou.jpeg" ALIGN="left"width="70" height="70" alt="album cover for Ed Sheeran's Shape of You">    
+    <p>Shape of You</p>
+    <p>Ed Sheeran <br>
+       3:53      &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;       7:23 A.M. 2/18/2017</p>    
+
+</div><!-- end featured -->
+
+<div id="sidebar">
+    <h4><center><em>Leader Board</center></em></h4>
+   <center><img src="images/bargraph2.png" width="50" height="50" alt="bar graph"></center>
+<ol>
+    <li>blicogam - 1,500 pts</li>
+    <li>viviandawn - 1,350 pts</li>
+    <li>williambert - 1,110 pts</li>
+    <li>ChristinaT18 - 900 pts</li>
+</ol>
+</div><!-- end sidebar -->
+<div id="sidebar">
+    <h4><center><em>Trending</em></center></h4>
+    <ol>
+        <li>Shape of You - Ed Sheeran</li>
+        <li>Bad and Boujee - Migos Featuring Lil Uzi Vert</li>
+        <li>I Don't Wanna Live Forever - Zayn and Taylor Swift</li>
+    </ol>
+</div>
+
+<p>&copy; Hackathon 2017</p>
+</body>
+</html>
